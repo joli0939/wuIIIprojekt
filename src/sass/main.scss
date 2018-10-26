@@ -1,0 +1,68 @@
+// CSS reset
+@import 'reset';
+
+// Färgvariabler
+$text_color: #f0f0df;
+$background_color: #2b3a42;
+$complement_color: #ff8f00;
+$input_background: #f9f9f9;
+$second_text_color: #333333;
+
+// Font
+$header: 'Lora', serif;
+$text: 'Montserrat', sans-serif;
+
+// Bakgrundsfärg för hela sidan
+html {
+    background: $background_color;
+}
+
+// Sidinnehåll, låser footer till botten av fönster
+#content {
+    min-height: calc(100vh - 50vh);
+    width: 80vw;
+    margin: auto;
+
+}
+
+// Importerar CSS för text
+@import 'h1';
+@import 'h2';
+@import 'text';
+
+// Importerar CSS för sidor
+@import 'login';
+@import 'createuser';
+@import 'books';
+
+
+
+// Utseende för knappar
+.button {
+    transition: box-shadow 0.2s ease-in-out;
+    background: $input_background;
+    border-radius: 5px;
+    padding: 0.4vh 0.5vw 0.4vh 0.5vw;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #888888;
+}
+
+
+
+// Sidfot
+footer {
+    background: $complement_color;
+    padding-top: 1vh;
+    height: 4vh;
+    margin-top: 5vh;
+}
+
+footer {
+    p {
+    color: $background_color;
+    text-align: center;
+    }
+}

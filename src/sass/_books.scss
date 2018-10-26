@@ -1,0 +1,81 @@
+// Sida som visar alla böcker
+// Länk för att logga ut
+#logout {
+    float: right;
+    padding-top: 1vh;
+}
+
+// Text som visar användarnamnet
+#booksusername {
+    font-style: italic;
+}
+
+// Div med fält för att lägga till ny bok
+#addnew {
+    width: 50vw;
+    margin: auto;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid $complement_color;
+}
+
+// Input-fält för att lägga till ny bok
+.addbookinput {
+    display: block;
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 1vh;
+    border: 2px solid #aaa;
+    padding: 0.4vh 0.3vw 0.4vh 0.3vw;
+    font-size: 0.8vw;
+    border-radius: 6px;
+    background: $input_background;
+    color: $second_text_color;
+}
+
+// Knapp för att lägga till ny bok
+#addbutton {
+    @extend #loginButton;
+}
+
+// Div som innehåller en bok som skrivs ut
+.showbooks {
+    width: 20vw;
+    margin: auto;
+    padding-bottom: 5vh;
+
+    input {
+        margin-right: 1vw;
+    }
+}
+
+// Div som innehåller alla div som visar böcker
+#booklist {
+    width: 50vw;
+    margin: auto;
+}
+
+
+// Döljer och visar ändra-fält
+.hidden {
+    display: none;
+}
+
+.showEdit {
+    display: block;
+    padding-top: 2vh;
+    width: 20vw;
+    animation-name: show;
+    animation-duration: 2s;
+}
+
+// Animation för att ändring till att ändrafältet ska vara mjuk
+@keyframes show {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+// Input-fält för att ändra böcker
+.editinput {
+    @extend .addbookinput;
+    border: 2px solid $complement_color;
+}

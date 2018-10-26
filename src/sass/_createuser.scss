@@ -1,0 +1,15 @@
+// Skapa användare
+// Div som innehåller formulär för att skapa användare
+#createUserContainer {
+    padding-top: 2vh;
+}
+//Formulär för att skapa användare
+#createuser {
+    @extend #login;
+    padding-top: 1vh;
+    input {
+        display: block;
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+}

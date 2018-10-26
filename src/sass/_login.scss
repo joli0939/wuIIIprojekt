@@ -1,0 +1,42 @@
+// Inloggningssida
+// Länk till skapa användare
+#createUserLink {
+    display: block;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+// Formulär för inloggning
+#login {
+    margin: auto;
+    width: 20vw;
+    padding-top: 5vh;
+
+    p {
+        padding-bottom: 1vh;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        height: 1vw;
+        text-align: center;
+        color: $text_color;
+    }
+}
+
+// Input på inloggningssida
+.loginField {
+    display: block;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    width: 10vw;
+    
+}
+
+// Knapp för att logga in
+#loginButton {
+    display: block;
+    margin: auto;
+}

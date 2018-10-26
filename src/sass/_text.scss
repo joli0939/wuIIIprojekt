@@ -1,0 +1,24 @@
+p {
+    color: $text_color;
+    font-size: 0.8vw;
+    font-family: $text;
+}
+
+a {
+    color: $complement_color;
+}
+
+// Felmeddelande för nya böcker
+#addnewErrormsg {
+    margin-bottom: 1vh;
+}
+
+// Meddelande för användare som inte har böcker inlagda
+.noBooks {
+    text-align: center;
+}
+
+// Text för information om inlagda böcker
+.showbooks p {
+    padding-bottom: 1vh;
+}
