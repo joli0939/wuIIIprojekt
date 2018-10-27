@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function(){ 
     
     // Skapar variabler med länk till RESTtjänst samt element för att skriva ut böcker
-    let url: string = "http://localhost/rest.php/books";
+    let url: string = "http://studenter.miun.se/~joli0939/dt173G/projekt/rest.php/books";
     
     
     

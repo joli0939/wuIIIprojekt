@@ -1,7 +1,7 @@
 // Aktiverar när webbläsaren laddad innehåll i DOM
 document.addEventListener("DOMContentLoaded", function () {
     // Skapar variabler med länk till RESTtjänst samt element för att skriva ut böcker
-    var url = "http://localhost/rest.php/books";
+    var url = "http://studenter.miun.se/~joli0939/dt173G/projekt/rest.php/books";
     ;
     // Class for POST,PUT och DELETE
     var RESTservices = /** @class */ (function () {
