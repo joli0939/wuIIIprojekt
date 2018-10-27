@@ -15,7 +15,7 @@
 // PUT             Uppdaterar en existerande post
 // DELETE          Tar bort en post
 //
-// Database name: REST, Username: RESTuser, Password: testrest, Table: books 
+// Database name: REST, Username: RESTuser, Password: testrest, Table: books
 // ----------------------------------------------------------------------------------------------------------------------------------------------------------
 // | ID (int, AI, PRIMARY KEY) | title (varchar(64)) | author (varchar(64)) | genre (varchar(64)) | isbn (varchar(64)) | pages (int(11)) | user (varchar(64))
 // ----------------------------------------------------------------------------------------------------------------------------------------------------------
